@@ -5,7 +5,7 @@
  * @head: A pointer to the address.
  *
  * Return: 0 if the linked list is empty,
- * otherwise - The head node's data (n).
+ * otherwise the head node's data (n).
  */
 int pop_listint(listint_t **head)
 {
@@ -16,7 +16,7 @@ int pop_listint(listint_t **head)
 		return (0);
 
 	tmp = *head;
-	ret = (*head)->n;
+	i = (*head)->n;
 	*head = (*head)->next;
 
 	free(tmp);
