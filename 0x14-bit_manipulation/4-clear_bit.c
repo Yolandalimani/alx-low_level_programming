@@ -1,9 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * clear_bit - function that sets the value of a bit
- * at a given index to 0.
- * @n: A pointer to the bit.
+ * clear_bit - function that sets the value of a bit at a given index to 0.
+ * @n: A pointer
  * @index: The index to set the value at - indices start at 0.
  *
  * Return: -1 if an error occurs, otherwise 1.
